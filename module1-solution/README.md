@@ -1,2 +1,2 @@
 ### Assignment 1 Solution
-Dennis Wendell
+* Implemented check for empty menu items in list, i.e., ' ' or '    ,    ,    ,,, '

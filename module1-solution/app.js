@@ -33,7 +33,7 @@
 		function removeEmptyItemsFromArray(array) {
 			var cleanArray = []
 			angular.forEach(array, function(item) {
-				if (item) cleanArray.push(item)
+				if (item && item.trim()) cleanArray.push(item)
 			})
 			return cleanArray.length
 		}
